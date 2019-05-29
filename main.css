@@ -1,0 +1,48 @@
+ body {
+        background-color:#24292E;
+    }
+
+    .form {
+        display: flex;
+        padding: 20px 0px;
+        flex-basis: 50%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .alignment {
+        padding: 40px;
+        background-color:#FDF1B2;
+        margin: auto;
+        border:solid;
+        box-sizing: border-box;
+    }
+
+    .content {
+        display: flex;
+    }
+
+    .form .alignment label {
+        flex: 1;
+    }
+
+    .button {
+        display: flex;
+    }
+
+    .reset_submit {
+        flex: 1;
+    }
+
+    .button input {
+        border: none;
+        font-family: lora;
+        font-size: 15px;
+        background-color:rgb(241,101,42, 0.3);
+        padding: 5px 20px;
+        border: solid;
+        border-color:rgb(241,101,42, 0.2);
+    }
+
+    .border input:hover {
+        background-color: aliceblue;
+    }
